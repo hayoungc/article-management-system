@@ -18,21 +18,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<br />
-<div align="center">
-
-<h3 align="center">article-management-system</h3>
-  <p>
-    Develop a dashboard to manage articles with these features:
-    
-    1) User: Register, Login, Logout
-    2) Article: table list, new, tags, edit, delete
-    3) PrivateRoute for authenticated user
-    4) Responsive design, nice CSS and loading spinner
-    5) Unit testing using Jest & Testing-Library
-  </p>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 <!-- <details>
   <summary>Table of Contents</summary>
@@ -51,15 +36,23 @@
 
 ## About The Project
 
+<div>
+Develop a dashboard to manage articles with these features:
+    
+- User: Register, Login, Logout
+- Article: table list, new, tags, edit, delete
+- PrivateRoute for authenticated user
+- Responsive design, nice CSS and loading spinner
+- Unit testing using Jest & Testing-Library
+</div>
+
 There is no real API. All mock API is implemented on mockBackend.js.
 Anyone can replace it with a real API without touching other parts of this project.
 To save user/artice state in the client side, LocalStorage is utilized.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- BUILT WITH -->
 
-### Built With
+## Built With
 
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
@@ -67,9 +60,9 @@ To save user/artice state in the client side, LocalStorage is utilized.
 - ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 - ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-<!-- TESTING -->
+<!-- UNIT TESTING -->
 
-### Testing
+## Unit Testing
 
 - ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 - ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
@@ -77,7 +70,7 @@ To save user/artice state in the client side, LocalStorage is utilized.
 
 <!-- NPMSTART -->
 
-### npm start
+## npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:5400](http://localhost:5400) to view it in your browser.
@@ -109,3 +102,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Hayoung Choi - hayoungcau@gmail.com
 
 Project Link: [https://github.com/hayoungc/article-management-system](https://github.com/hayoungc/article-management-system)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/hayoungc/article-management-system.svg?style=for-the-badge
+[contributors-url]: https://github.com/hayoungc/article-management-system/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hayoungc/article-management-system.svg?style=for-the-badge
+[forks-url]: https://github.com/hayoungc/article-management-system/network/members
+[stars-shield]: https://img.shields.io/github/stars/hayoungc/article-management-system.svg?style=for-the-badge
+[stars-url]: https://github.com/hayoungc/article-management-system/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hayoungc/article-management-system.svg?style=for-the-badge
+[issues-url]: https://github.com/hayoungc/article-management-system/issues
+[license-shield]: https://img.shields.io/github/license/hayoungc/article-management-system.svg?style=for-the-badge
+[license-url]: https://github.com/hayoungc/article-management-system/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/hayoung-choi
